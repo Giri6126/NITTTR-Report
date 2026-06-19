@@ -1,0 +1,15 @@
+wsl
+gz sim --version
+python3 -c "from mavsdk import System; print('MAVSDK OK')"
+
+Expected output: MAVSDK OK. If this fails:
+pip install mavsdk --break-system-packages
+
+ls ~/robotics_sim/PX4-Autopilot/Tools/simulation/gz/models/x500/model.sdf
+
+This file must exist and be unmodified. If it was corrupted again, restore it:
+cd ~/robotics_sim/PX4-Autopilot/Tools/simulation/gz
+git checkout -- models/x500/model.sdf
+
+cd ~/robotics_sim/PX4-Autopilot
+PX4_SIM_HOST_ADDR=127.0.0.1 make px4_sitl gz_x500_windy
