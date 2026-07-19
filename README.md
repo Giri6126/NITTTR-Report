@@ -28,7 +28,7 @@ Two (or more) drones spawn at a shared origin and must reach a target position w
 
 ## Key Features
 
-- **SMA (Slime Mould Algorithm)** core optimizer — biologically-inspired exploration/exploitation balance that adapts over the run
+- SMA (Slime Mould Algorithm) core optimizer — biologically-inspired exploration/exploitation balance that adapts over the run
 - **Reactive obstacle avoidance layer** — takes priority over optimization when a drone is in immediate danger, with safety moves exempt from ordinary fitness-based rejection
 - **Dual pheromone system**:
   - *Navigation pheromone* — reinforces promising regions of the search space
