@@ -1,6 +1,6 @@
 # SMA + Stigmergy 3D Drone Swarm
 
-A multi-drone path-planning system that combines the Slime Mould Algorithm (SMA) with **stigmergic communication** (navigation and danger pheromones) to guide a swarm of simulated drones through an obstacle field toward a target, using only local, per-drone sensing — no drone ever has access to a global obstacle map.
+A multi-drone path-planning system that combines the Slime Mould Algorithm (SMA) with stigmergic communication (navigation and danger pheromones) to guide a swarm of simulated drones through an obstacle field toward a target, using only local, per-drone sensing — no drone ever has access to a global obstacle map.
 
 Built and tested on **PX4 SITL + Gazebo Harmonic**, controlled via **MAVSDK Python**.
 
